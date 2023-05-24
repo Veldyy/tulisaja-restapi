@@ -1,0 +1,32 @@
+{
+  "name": "tulisaja-restapi",
+  "version": "1.0.0",
+  "description": "rest api menggunakan express.js",
+  "main": "app.js",
+  "keywords": [
+    "restapi",
+    "express",
+    "mongodb"
+  ],
+  "scripts": {
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Veldyy/tulisaja-restapi.git"
+  },
+  "author": "Veldy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Veldyy/tulisaja-restapi/issues"
+  },
+  "homepage": "https://github.com/Veldyy/tulisaja-restapi#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.2.0",
+    "nodemon": "^2.0.22"
+  }
+}
