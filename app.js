@@ -21,13 +21,15 @@ app.get('/', (req, res) => {
   res.send('Affh iyyhh')
 })
 
+mongoose.connect(process.env.DB_CONNECTION,{
+  useNewUrlParser: true,
+  useUnifiedTopology: true
+})
+
 let db = mongoose.connection
 
 
-mongoose.connect(process.env.DB_CONNECTION,{
-    useNewUrlParser: true,
-    useUnifiedTopology: true
-})
+
 // handle error
 db.on('error', console.error.bind(console, 'Error Establishing a Database Connection?'))
 

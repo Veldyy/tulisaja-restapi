@@ -11,7 +11,7 @@
   "scripts": {
     "dev": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  },  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Veldyy/tulisaja-restapi.git"
@@ -24,6 +24,7 @@
   "homepage": "https://github.com/Veldyy/tulisaja-restapi#readme",
   "dependencies": {
     "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "mongoose": "^7.2.0",
