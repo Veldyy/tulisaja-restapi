@@ -97,7 +97,7 @@ router.put('/', async(req,res)=> {
   
 
 router.delete('/:id', async (req,res)=>{
-    try{
+    try{    
         const post = await Post.deleteOne({
             _id: req.params.id
         })
